@@ -1,17 +1,21 @@
 # Starting a new Dapp project
 
-npm init -y
-npm i -D hardhat
-npm i -D @nomiclabs/hardhat-etherscan
-npx hardhat
-npm i @openzeppelin/contracts
-npm i dotenv
-npx hardhat run scripts/sample-script.js
+```
+- npm init -y
+- npm i -D hardhat
+- npm i -D @nomiclabs/hardhat-etherscan
+- npx hardhat
+- npm i @openzeppelin/contracts
+- npm i dotenv
+- npx hardhat run scripts/sample-script.js
+```
 
 # To deploy and verify
 
-npx hardhat run scripts/deploy.js --network rinkeby
-npx hardhat verify YOUR_CONTRACT_ADDRESS --network rinkeby
+```
+- npx hardhat run scripts/deploy.js --network rinkeby
+- npx hardhat verify YOUR_CONTRACT_ADDRESS --network rinkeby
+```
 
 # Basic Sample Hardhat Project
 
